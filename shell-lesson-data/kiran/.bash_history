@@ -1,0 +1,4 @@
+exit
+ls
+pwd
+exit

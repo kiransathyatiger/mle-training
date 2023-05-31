@@ -1,0 +1,49 @@
+Script started on 2023-05-31 17:30:16+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="35"]
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mcp quotes.txt thesis/quotations.txt[27mcp quotes.txt thesis/quotations.txt
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls quotes.txt thesis/quotations.txt[27mls quotes.txt thesis/quotations.txt
+[?2004lquotes.txt  thesis/quotations.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd thei[Ksis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004lquotations.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7m cp -r thesis thesis_backup[27m cp -r thesis thesis_backup
+[?2004lcp: cannot stat 'thesis': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd ..[3Plscd thesisls quotes.txt thesis/quotations.txtcd thesis[Kls[Kcd ..[Kcd ..[3Plscd thesisls quotes.txt thesis/quotations.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m cp -r thesis thesis_backup[27m cp -r thesis thesis_backup
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls thesis thesis_backup[27mls thesis thesis_backup
+[?2004lthesis:
+quotations.txt
+
+thesis_backup:
+quotations.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mrm quotes.txt[27mrm quotes.txt
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls quotes.txt[27mls quotes.txt
+[?2004lls: cannot access 'quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7m rm -r thesis[27m rm -r thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mmkdir backup[27mmkdir backup
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mcp creatures/minotaur.dat creatures/unicorn.dat backup/[27mcp creatures/minotaur.dat creatures/unicorn.dat backup/
+[?2004lcp: cannot stat 'creatures/minotaur.dat': No such file or directory
+cp: cannot stat 'creatures/unicorn.dat': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd ..p creatures/minotaur.dat creatures/unicorn.dat backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir backup[K
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ mkdir backup[7Pcd ..p creatures/minotaur.dat creatures/unicorn.dat backup/
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ [7mcd creatures[27mcd creatures
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ [7mls -F[27mls -F
+[?2004l[0m[01;32mbasilisk.dat[0m*  [01;32mminotaur.dat[0m*  [01;32municorn.dat[0m*
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ [7mcp minotaur.dat unicorn.dat basilisk.dat[27mcp minotaur.dat unicorn.dat basilisk.dat
+[?2004lcp: target 'basilisk.dat' is not a directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ ls [K[K[Kcd ..[K[K[K[K[Kls
+[?2004l[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mbackup[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd alkanes
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/alkanes[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/alkanes[00m$ ls
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/alkanes[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/alkanes[00m$ [7mls *t??ne.pdb[27mls *t??ne.pdb
+[?2004l[0m[01;32methane.pdb[0m  [01;32mmethane.pdb[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/alkanes[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/alkanes[00m$ [7m cp *dataset* backup/datasets[27m cp *dataset* backup/datasets
+[?2004lcp: cannot stat '*dataset*': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/alkanes[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/alkanes[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-31 18:29:17+05:30 [COMMAND_EXIT_CODE="1"]

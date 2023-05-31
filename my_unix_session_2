@@ -1,0 +1,253 @@
+Script started on 2023-05-31 15:32:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ pwd
+[?2004l/home/kiran
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ ls
+[?2004lmy_unix_session  my_unix_session_2  [0m[01;34mshell-lesson-data[0m  test
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ cd shell-ke[K[Klesis[K[Ksoon[K[Kon[K[Kn-data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ c[Kls
+[?2004l[0m[01;34mexercise-data[0m  [01;34mkiran[0m  [01;34mnorth-pacific-gyre[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd excercise-data
+[?2004lbash: cd: excercise-data: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd excercise-data[K[K[K[K[K[K[K[K[K[K[K[Kercise-data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd excercis[K[K[K[K[K[Kercise-data/writing
+[?2004lbash: cd: exercise-data/writing: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd exercise-data/writing[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd writing
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls =F
+[?2004lls: cannot access '=F': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls -[K[K -F
+[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ exit
+[?2004lexit
+
+Script done on 2023-05-31 15:34:47+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-05-31 15:45:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ pwd
+[?2004l/home/kiran
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ [7mcd exercise-data/writing/[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd exercise-data/writing/
+[?2004lbash: cd: exercise-data/writing/: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ cd exercise-data/writing/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lmy_unix_session  my_unix_session_2  [0m[01;34mshell-lesson-data[0m  test
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ cd shell-lesson-data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ [7mcd exercise-data/writing/[27mcd exercise-data/writing/
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls -F[27mls -F
+[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mmkdir thesis[27mmkdir thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ pwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7m ls -F[27m ls -F
+[?2004l[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*  [01;34mthesis[0m/
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls -F thesis[27mls -F thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7m mkdir -p ../project/data ../project/results[27m mkdir -p ../project/data ../project/results
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls -FR ../project[27mls -FR ../project
+[?2004l../project:
+[0m[01;34mdata[0m/  [01;34mresults[0m/
+
+../project/data:
+
+../project/results:
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mcd thesis[27mcd thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7mnano draft.txt[27mnano draft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                            draft.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dI[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h'[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25hl[?25l[28d[K[?12l[?25h[2;14Hi[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hy[?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h"publish or perish anymore[2;11H[?25l[?12l[?25hp[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h" anymore[2;29H[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hy[?25l[?12l[?25hm[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[3d[?12l[?25h[?25l[?12l[?25hI[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25he[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h"share and thrive[6G[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25he[?25l[?12l[?25h"[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: draft.txt                                                                                           [28;30H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[3;23H[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: draft.txt                                                                                           [28;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;119H[28;52H(B[0;7m[ Wrote 2 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[3;23H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004ldraft.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ tp[Kocu[K[Kuch myfile_txt[K[K[K[K.txt
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ pwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004ldraft.txt  myfile.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ nano myfile.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2                                           myfile.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls=[K-1[K[K -1[Kl
+[?2004ltotal 4
+-rw-r--r-- 1 kiran kiran 60 May 31 15:55 draft.txt
+-rw-r--r-- 1 kiran kiran  0 May 31 15:56 myfile.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7mrm my_file.txt[27mrm my_file.txt
+[?2004lrm: cannot remove 'my_file.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ rm my_file.txt[Krm my_file.txt[1Pfile.txt
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ pwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd
+[?2004l[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ c[Kpwd
+[?2004l/home/kiran
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ ls
+[?2004lmy_unix_session  my_unix_session_2  [0m[01;34mshell-lesson-data[0m  test
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ cd shell_lessopn[K[Kn_data
+[?2004lbash: cd: shell_lesson_data: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~[01;32mkiran@TIGER01058[00m:[01;34m~[00m$ cd shell_lesson_data[K[K[K[K[K[K[K[K[K[K[K[K-lesson-data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ ls
+[?2004l[0m[01;34mexercise-data[0m  [01;34mkiran[0m  [01;34mnorth-pacific-gyre[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd excercise-data
+[?2004lbash: cd: excercise-data: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd exercise-data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd wrti[K[K[Kriting
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mmv thesis/draft.txt thesis/quotes.txt[27mmv thesis/draft.txt thesis/quotes.txt
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd thesisls[Kmv thesis/draft.txt thesis/quotes.txt
+[?2004lmv: cannot stat 'thesis/draft.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ mv thesis/draft.txt thesis/quotes.txt
+[?2004lmv: cannot stat 'thesis/draft.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7mmv thesis/quotes.txt .[27mmv thesis/quotes.txt .
+[?2004lmv: cannot stat 'thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7mmv thesis/quotes.txt .[27mmv thesis/quotes.txt .
+[?2004lmv: cannot stat 'thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ mv thesis/quotes.txt .[1@/
+[?2004lmv: cannot stat '/thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ pwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ pwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ mv [7mmv thesis/quotes.txt .[27mmv thesis/quotes.txt .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmv [7m:~/shell-lesson-data/exercise-data/writing/thesis[27m:~/shell-lesson-data/exercise-data/writing/thesis[1P~/shell-lesson-data/exercise-data/writing/thesis[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/q uptes[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq uotes.txt .
+[?2004lmv: '/home/kiran/shell-lesson-data/exercise-data/writing/thesis/quotes.txt' and './quotes.txt' are the same file
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ mv ~/shell-lesson-data/exercise-data/writing/thesis/quotes.txt .[A]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwdmv /thesis/quotes.txt .
+[?2004lmv: cannot stat '/thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ lsmv /thesis/quotes.txt .~/shell-lesson-data/exercise-data/writing/thesis/quotes.txt .[A]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwdmv /thesis/quotes.txt .[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv thesis/quotes.txt .ls[Kmv thesis/draft.txt thesis/quotes.txtcd thesis[Kmv thesis/draft.txt thesis/quotes.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd thesis
+[?2004lbash: cd: thesis: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ c[Kpwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7mls thesis/quotes.txt[27mls thesis/quotes.txt
+[?2004lls: cannot access 'thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ mv quotes.txt .
+[?2004lmv: 'quotes.txt' and './quotes.txt' are the same file
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd the[K[K[K[K[K[Klscd ..mv quotes.txt .ls thesis/quotes.txt[Kpwdcd thesis[6Ppwd[1Plsmv /thesis/quotes.txt .
+[?2004lmv: cannot stat '/thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv /thesis/quotes.txt .[K .
+[?2004lmv: cannot stat '/thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd theis[K[Ksis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd thesismv /thesis/quotes.txt  .
+[?2004lmv: cannot stat '/thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ mv /thesis/quotes.txt  .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kquotes.txt /[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls quote.txt
+[?2004lls: cannot access 'quote.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ k[Kls thesis/quote.txt
+[?2004lls: cannot access 'thesis/quote.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls theis[K[Kis[K[Ksis
+[?2004lls: cannot access 'thesis': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ pwd
+[?2004l/home/kiran/shell-lesson-data/exercise-data/writing/thesis
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls thesis
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls thesis[Kcd ..[2Ppwdls thesis/quote.txt[7Pquote.txtmv /thesis/quotes.txt  .
+[?2004lmv: cannot stat '/thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv /thesis/quotes.txt  .[1P
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7mls thesis[27mls thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ [7m ls thesis/quotes.txt[27m ls thesis/quotes.txt
+[?2004lls: cannot access 'thesis/quotes.txt': No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  quotes.txt  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls w[K[K[K[Kls quotes.txt
+[?2004lquotes.txt
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ [7m ls thesis/quotes.txt[27m ls thesis/quotes.txt[7mmv sucrose.dat maltose.dat ../raw[27mmv sucrose.dat maltose.dat ../raw[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lmv: target '../raw' is not a directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ s[Kls
+[?2004l[0m[01;34mexercise-data[0m  [01;34mkiran[0m  [01;34mnorth-pacific-gyre[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd excercise-data
+[?2004lbash: cd: excercise-data: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd excercise-data[1Percise-data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd  project
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ ,[Kls
+[?2004l[0m[01;34mdata[0m  [01;34mresults[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd a[Kanimal_[K-counts
+[?2004lbash: cd: animal-counts: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ l[Kcd animal_count[K[K[K[K[K[K-counts
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/animal-counts[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/animal-counts[00m$ ls
+[?2004l[0m[01;32manimals.csv[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/animal-counts[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/animal-counts[00m$ cd alkanes[K[K[K[K[K[K[K[K...[K
+[?2004lcd..: command not found
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/animal-counts[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/animal-counts[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd alkanes
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/alkanes[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/alkanes[00m$ ls
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/alkanes[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/alkanes[00m$ cd .,[K.
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd writing
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  quotes.txt  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  quotes.txt  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd create[Kures
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ ls
+[?2004l[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd project
+[?2004lbash: cd: project: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/creatures[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd project
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ ls
+[?2004l[0m[01;34mdata[0m  [01;34mresults[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd data[K[K[K[K[K ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd project
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd [K[K[Kls
+[?2004l[0m[01;34mdata[0m  [01;34mresults[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd data
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project/data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project/data[00m$ ls
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project/data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project/data[00m$ cd results
+[?2004lbash: cd: results: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project/data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project/data[00m$ ls[K[Kcd[Kd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd results
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project/results[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project/results[00m$ ls
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project/results[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project/results[00m$ cd [K ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ ls
+[?2004l[0m[01;34mdata[0m  [01;34mresults[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/project[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/project[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd writing
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls
+[?2004l[0m[01;32mLittleWomen.txt[0m  [01;32mhaiku.txt[0m  quotes.txt  [01;34mthesis[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd thesis
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ [7mls -F[27m
+[7m analyzed/ raw/[27m[A]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls -F
+ analyzed/ raw/
+[?2004lbash: analyzed/: No such file or directory
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data/writing[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[01;34malkanes[0m  [01;34manimal-counts[0m  [01;34mcreatures[0m  [01;32mnumbers.txt[0m  [01;34mproject[0m  [01;34mwriting[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/exercise-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ ls
+[?2004l[0m[01;34mexercise-data[0m  [01;34mkiran[0m  [01;34mnorth-pacific-gyre[0m
+[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data[00m$ cd north[K[K[K[K[K[K north_p[K[K-pacific [K-gu[Kr[Kyre
+[?2004l[?2004h]0;kiran@TIGER01058: ~/shell-lesson-data/north-pacific-gyre[01;32mkiran@TIGER01058[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ ks[K[Kls
+[?2004l[0m[01;32mNENE01729A.txt[0m  [01;32mNENE01751A.txt[0m  [01;32mNENE01843A.txt[0m  [01;32mNENE01978A.txt[0m
