@@ -9,12 +9,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-from sklearn.model_selection import (
-    GridSearchCV,
-    RandomizedSearchCV,
-    StratifiedShuffleSplit,
-    train_test_split,
-)
+from sklearn.model_selection import (GridSearchCV, RandomizedSearchCV,
+                                     StratifiedShuffleSplit, train_test_split)
 from sklearn.tree import DecisionTreeRegressor
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
@@ -81,12 +77,8 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 corr_matrix = housing.corr()
 corr_matrix["median_house_value"].sort_values(ascending=False)
 housing["rooms_per_household"] = housing["total_rooms"] / housing["households"]
-housing["bedrooms_per_room"] = (
-    housing["total_bedrooms"] / housing["total_rooms"]
-)
-housing["population_per_household"] = (
-    housing["population"] / housing["households"]
-)
+housing["bedrooms_per_room"] = housing["total_bedrooms"] / housing["total_rooms"]
+housing["population_per_household"] = housing["population"] / housing["households"]
 housing = strat_train_set.drop("median_house_value", axis=1)
 housing_labels = strat_train_set["median_house_value"].copy()
 imputer = SimpleImputer(strategy="median")
@@ -94,9 +86,7 @@ housing_num = housing.drop("ocean_proximity", axis=1)
 imputer.fit(housing_num)
 X = imputer.transform(housing_num)
 housing_tr = pd.DataFrame(X, columns=housing_num.columns, index=housing.index)
-housing_tr["rooms_per_household"] = (
-    housing_tr["total_rooms"] / housing_tr["households"]
-)
+housing_tr["rooms_per_household"] = housing_tr["total_rooms"] / housing_tr["households"]
 housing_tr["bedrooms_per_room"] = (
     housing_tr["total_bedrooms"] / housing_tr["total_rooms"]
 )
@@ -104,9 +94,7 @@ housing_tr["population_per_household"] = (
     housing_tr["population"] / housing_tr["households"]
 )
 housing_cat = housing[["ocean_proximity"]]
-housing_prepared = {
-    housing_tr.join(pd.get_dummies(housing_cat, drop_first=True))
-}
+housing_prepared = {housing_tr.join(pd.get_dummies(housing_cat, drop_first=True))}
 lin_reg = LinearRegression()
 lin_reg.fit(housing_prepared, housing_labels)
 housing_predictions = lin_reg.predict(housing_prepared)
@@ -174,9 +162,7 @@ X_test_prepared["population_per_household"] = (
 )
 
 X_test_cat = X_test[["ocean_proximity"]]
-X_test_prepared = {
-    X_test_prepared.join(pd.get_dummies(X_test_cat, drop_first=True))
-}
+X_test_prepared = {X_test_prepared.join(pd.get_dummies(X_test_cat, drop_first=True))}
 final_predictions = final_model.predict(X_test_prepared)
 final_mse = mean_squared_error(y_test, final_predictions)
 final_rmse = np.sqrt(final_mse)
