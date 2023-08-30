@@ -7,6 +7,4 @@ Decision Tree
 Random Forest
 Steps performed
 We prepare and clean the data. We check and impute for missing values.
-Features are generated and the variables are checked for correlation.
-Multiple sampling techinuqies are evaluated. The data set is split into train and test.
-All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
+Based on stratified sampling techniques we split the train and test data and use multiple algorithms, check the mse and also the scoring data is used to score the model and generate the results
