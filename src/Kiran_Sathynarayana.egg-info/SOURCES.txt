@@ -1,0 +1,10 @@
+setup.py
+src/Kiran_Sathynarayana.egg-info/PKG-INFO
+src/Kiran_Sathynarayana.egg-info/SOURCES.txt
+src/Kiran_Sathynarayana.egg-info/dependency_links.txt
+src/Kiran_Sathynarayana.egg-info/top_level.txt
+src/housingpackage/__init__.py
+src/housingpackage/ingest_data.py
+src/housingpackage/logger.py
+src/housingpackage/score.py
+src/housingpackage/train.py

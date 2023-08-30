@@ -1,0 +1,16 @@
+.csv
+*.pyc
+*.tgz
+build/**
+*.egg-info/**
+mlruns/**
+.flake8
+.vscode/**
+*model/
+*.log
+artifacts/models/**
+docs/build/**
+src/.egg-info
+_pycache__
+src/Kiran_Sathyanarayana.egg-info
+.bat
