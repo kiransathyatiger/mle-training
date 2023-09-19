@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="Kiran Sathynarayana",
+    name="Kiran Sathyanarayana",
     version="v0.3",
     author="Kiran Sathyanarayana",
     author_email="kiran.sathyanara@tigeranalytics.com",

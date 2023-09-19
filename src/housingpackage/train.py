@@ -16,6 +16,7 @@ model_names = ["lin_model", "tree_model", "forest_model", "grid_search_model"]
 
 
 def get_path():
+    """Function to get current working directory"""
     path_parent = os.getcwd()
     while os.path.basename(os.getcwd()) != "housingproject":
         path_parent = os.path.dirname(os.getcwd())
@@ -46,6 +47,11 @@ def parse_args():
 
 
 def train(housing_prepared, housing_labels):
+    """Function to run the linear regression, Decision tree regression and gradient boosting regression"
+    Parameters:
+    housing_prepared: trainingfeatures
+    housing_labels:training labels
+    """
     lin_reg = LinearRegression()
     lin_reg.fit(housing_prepared, housing_labels)
 
@@ -79,6 +85,7 @@ def train(housing_prepared, housing_labels):
 
 
 def load_data(in_path):
+    """Function to load training data"""
     prepared = pd.read_csv(in_path + "/train_X.csv")
     lables = pd.read_csv(in_path + "/train_y.csv")
     lables = lables.values.ravel()
@@ -92,12 +99,13 @@ def rem_artifacts(out_path):
 
 
 def model(lin_reg, tree_reg, forest_reg, grid_search, out_path):
-    out_path = out_path + "/models"
+    """Function to dump the models and serialize the models"""
+    out_path = out_path + "/modelsnew"
     os.makedirs(out_path)
     pickle.dump(lin_reg, open(out_path + "/lin_model.pkl", "wb"))
-    pickle.dump(lin_reg, open(out_path + "/tree_model.pkl", "wb"))
-    pickle.dump(lin_reg, open(out_path + "/forest_model.pkl", "wb"))
-    pickle.dump(lin_reg, open(out_path + "/grid_search_model.pkl", "wb"))
+    pickle.dump(tree_reg, open(out_path + "/tree_model.pkl", "wb"))
+    pickle.dump(forest_reg, open(out_path + "/forest_model.pkl", "wb"))
+    pickle.dump(grid_search, open(out_path + "/grid_search_model.pkl", "wb"))
 
 
 if __name__ == "__main__":

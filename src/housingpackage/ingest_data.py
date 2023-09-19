@@ -11,8 +11,6 @@ from logging import Logger
 
 from housingpackage.logger import configure_logger
 
-print("ingesting data")
-
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
 HOUSING_PATH = os.path.join("data/raw", "housing")
 HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
@@ -20,6 +18,14 @@ imputer = SimpleImputer(strategy="median")
 
 
 def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
+    """Function to download and extract housing data.
+    Parameters
+    ----------
+    housing_url : str
+        Url to download the housing data from.
+    housing_path : str
+        Path to store the raw csv files after extraction.
+    """
     os.makedirs(housing_path, exist_ok=True)
     tgz_path = os.path.join(housing_path, "housing.tgz")
     urllib.request.urlretrieve(housing_url, tgz_path)
@@ -29,16 +35,33 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
 
 
 def load_housing_data(housing_path=HOUSING_PATH):
+    """Function to load housing data.
+    Parameters
+    ----------
+    housing_path : str
+        Path to extract the csv file from where it is stored.
+    """
     csv_path = os.path.join(housing_path, "housing.csv")
     print(csv_path)
     return pd.read_csv(csv_path)
 
 
 def income_cat_proportions(data):
+    """Function to categorize different levels  of income.
+    Parameters
+    ----------
+    data: the actual dataframe under consideration
+    """
     return data["income_cat"].value_counts() / len(data)
 
 
 def train_test(housing):
+    """Function to split the actual data ino test and train and comparison of different sampling techniques to ensure the income categories are equally represented in both train and test
+    Parameters
+    ----------
+    housing: the actual housing data
+    """
+
     train_set, test_set = train_test_split(
         housing, test_size=0.2, random_state=42
     )
@@ -80,6 +103,12 @@ def train_test(housing):
 
 
 def preprocess(strat_train_set):
+    """Function to preprocess the  train data, check for correlations and other EDA
+    Parameters
+    ----------
+    strat_train_set: The transformations will be done on the training set
+    """
+
     housing = strat_train_set.copy()
 
     corr_matrix = housing.corr()

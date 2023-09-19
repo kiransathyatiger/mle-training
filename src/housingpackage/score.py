@@ -8,10 +8,11 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 from logging import Logger
 from housingpackage.logger import configure_logger
 
-model_names = ["lin_model", "tree_model", "forest_model", "grid_search_model"]
+model_names = ["forest_model", "grid_search_model", "lin_model", "tree_model"]
 
 
 def get_path():
+    """Function to get current working directory"""
     path_parent = os.getcwd()
     while os.path.basename(os.getcwd()) != "housingproject":
         path_parent = os.path.dirname(os.getcwd())
@@ -20,6 +21,7 @@ def get_path():
 
 
 def parse_args():
+    """Function to get command line arguments"""
     parser = argparse.ArgumentParser()
     print("Function enter")
     print(parser)
@@ -47,6 +49,7 @@ def parse_args():
 
 
 def scoring(X_test, y_test, lin_reg, tree_reg, forest_reg, grid_search):
+    """scoring function applied on the test features and test labels using the models generated"""
     lin_predictions = lin_reg.predict(X_test)
     lin_mse = mean_squared_error(y_test, lin_predictions)
     lin_rmse = np.sqrt(lin_mse)
@@ -76,6 +79,7 @@ def scoring(X_test, y_test, lin_reg, tree_reg, forest_reg, grid_search):
 
 
 def load_data(in_path):
+    """Function to load the test data"""
     prepared = pd.read_csv(in_path + "/test_X.csv")
     lables = pd.read_csv(in_path + "/test_y.csv")
     lables = lables.values.ravel()
@@ -83,19 +87,26 @@ def load_data(in_path):
 
 
 def load_models(model_path):
+    """Function to load the models"""
     models = []
     for i in model_names:
         with open(model_path + "/models/" + i + ".pkl", "rb") as f:
             models.append(pickle.load(f))
+            print(models)
     return models
 
 
 def score(models, X_test, y_test):
+    """scoring function"""
     lin_scores, tree_scores, forest_scores, grid_search_scores = scoring(
         X_test, y_test, models[0], models[1], models[2], models[3]
     )
 
     return [lin_scores, tree_scores, forest_scores, grid_search_scores]
+
+
+def get_model_path():
+    return model_path
 
 
 if __name__ == "__main__":
@@ -109,6 +120,7 @@ if __name__ == "__main__":
     path_parent = get_path()
     data_path = path_parent + args.datapath
     model_path = path_parent + args.modelpath
+
     print(model_path)
     X_test, y_test = load_data(data_path)
     logger.debug("Loaded test data")

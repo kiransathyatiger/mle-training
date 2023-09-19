@@ -14,3 +14,4 @@ src/.egg-info
 _pycache__
 src/Kiran_Sathyanarayana.egg-info
 .bat
+data/*.csv
