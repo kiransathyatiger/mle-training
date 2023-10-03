@@ -24,51 +24,55 @@ linregmodel = "/home/kiran/housingproject/artifacts/models/lin_model.pkl"
 linregmodel = pkl.load(open(linregmodel, "rb"))
 forestmodel = "/home/kiran/housingproject/artifacts/models/forest_model.pkl"
 forestmodel = pkl.load(open(forestmodel, "rb"))
-gridsearchmodel = "/home/kiran/housingproject/artifacts/models/grid_search_model.pkl"
+gridsearchmodel = (
+    "/home/kiran/housingproject/artifacts/models/grid_search_model.pkl"
+)
 gridsearchmodel = pkl.load(open(gridsearchmodel, "rb"))
 treemodel = "/home/kiran/housingproject/artifacts/models/tree_model.pkl"
 treemodel = pkl.load(open(treemodel, "rb"))
 
 
-def dummydata():
-    """
-    Random data constructor utility for tests
-    """
-    X = [[12, 14, 13, 20, 45, 50, 60, 70, 21, 12, 41, 4, 34, 14, 2]]
-    y = 2022
-    return X, y
+def load_data(in_path):
+    """Function to load the test data"""
+    prepared = pd.read_csv(in_path + "/test_X.csv")
+    lables = pd.read_csv(in_path + "/test_y.csv")
+    lables = lables.values.ravel()
+    return prepared, lables
 
 
-X, y = dummydata()
-X = np.array(X).reshape(1, -1)
-y = np.array(y).reshape(1, -1)
-
-
-X, y = dummydata()
-predictions = linregmodel.predict(X)
+X, y = load_data("/home/kiran/housingproject/data/processed")
+predictions = treemodel.predict(X.iloc[0, :].values.reshape(1, -1))
+predictions = np.array(predictions)
+print(predictions)
 
 
 def test_linearmodelpredictions():
-    """Function to test working of linear regression model """
-    assert predictions > 0
-
-
-predictions = forestmodel.predict(X)
+    """Function to test working of linear regression model"""
+    X, y = load_data("/home/kiran/housingproject/data/processed")
+    predictions = linregmodel.predict(X.iloc[0, :].values.reshape(1, -1))
+    predictions = np.array(predictions)
+    assert round(predictions[0]) == 424327
 
 
 def test_forestmodelpredictions():
-    """Function to test working of random forest model """
-    assert predictions > 0
+    """Function to test working of linear regression model"""
+    X, y = load_data("/home/kiran/housingproject/data/processed")
+    predictions = forestmodel.predict(X.iloc[0, :].values.reshape(1, -1))
+    predictions = np.array(predictions)
+    assert round(predictions[0]) == 487657
 
-predictions = treemodel.predict(X)
+
+def test_gridmodelpredictions():
+    """Function to test working of linear regression model"""
+    X, y = load_data("/home/kiran/housingproject/data/processed")
+    predictions = gridsearchmodel.predict(X.iloc[0, :].values.reshape(1, -1))
+    predictions = np.array(predictions)
+    assert round(predictions[0]) == 491164
 
 
 def test_treemodelpredictions():
-    """Function to test working of random forest model """
-    assert predictions > 0
-
-
-predictions=gridsearchmodel.predict(X)
-def test_gridsearchpredictions():
-    """Function to test working of gridsearch model """
-    assert predictions > 0
+    """Function to test working of linear regression model"""
+    X, y = load_data("/home/kiran/housingproject/data/processed")
+    predictions = treemodel.predict(X.iloc[0, :].values.reshape(1, -1))
+    predictions = np.array(predictions)
+    assert round(predictions[0]) == 394900

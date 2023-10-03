@@ -105,10 +105,6 @@ def score(models, X_test, y_test):
     return [lin_scores, tree_scores, forest_scores, grid_search_scores]
 
 
-def get_model_path():
-    return model_path
-
-
 if __name__ == "__main__":
     args = parse_args()
     print("Function done")
