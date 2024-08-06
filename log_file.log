@@ -1,0 +1,68 @@
+Fetched housing data.
+Fetched housing data.
+Fetched housing data.
+Preprocessing...
+Preprocessing finished.
+Saving datasets.
+Preprocessed train datasets stored at data/processed/housing_train.csv.
+Preprocessed test datasets stored at data/processed/housing_test.csv
+Started training.
+LinearRegression model saved in data/models/LinearRegression.pkl.
+DecisionTreeRegressor model saved in data/models/DecisionTreeRegressor.pkl.
+RandomForestRegressor model saved in data/models/RandomForestRegressor.pkl.
+Done training.
+Model: DecisionTreeRegressor
+R2 score: 0.66416266945697
+Model: LinearRegression
+R2 score: 0.6585419093191216
+Model: RandomForestRegressor
+R2 score: 0.8431933199731287
+Popen(['git', 'version'], cwd=/home/kiran/cddockerfile, universal_newlines=False, shell=None, istream=None)
+Popen(['git', 'version'], cwd=/home/kiran/cddockerfile, universal_newlines=False, shell=None, istream=None)
+Fetched housing data.
+Preprocessing...
+Preprocessing finished.
+Saving datasets.
+Preprocessed train datasets stored at data/processed/housing_train.csv.
+Preprocessed test datasets stored at data/processed/housing_test.csv
+Started training.
+LinearRegression model saved in data/models/LinearRegression.pkl.
+DecisionTreeRegressor model saved in data/models/DecisionTreeRegressor.pkl.
+Popen(['git', 'version'], cwd=/home/kiran/cddockerfile, universal_newlines=False, shell=None, istream=None)
+Popen(['git', 'version'], cwd=/home/kiran/cddockerfile, universal_newlines=False, shell=None, istream=None)
+Fetched housing data.
+Preprocessing...
+Preprocessing finished.
+Saving datasets.
+Preprocessed train datasets stored at data/processed/housing_train.csv.
+Preprocessed test datasets stored at data/processed/housing_test.csv
+Started training.
+LinearRegression model saved in data/models/LinearRegression.pkl.
+DecisionTreeRegressor model saved in data/models/DecisionTreeRegressor.pkl.
+RandomForestRegressor model saved in data/models/RandomForestRegressor.pkl.
+Done training.
+Model: DecisionTreeRegressor
+R2 score: 0.66416266945697
+Model: LinearRegression
+R2 score: 0.6585419093191216
+Model: RandomForestRegressor
+R2 score: 0.8369882128656405
+Popen(['git', 'version'], cwd=/home/kiran/cddockerfile, universal_newlines=False, shell=None, istream=None)
+Popen(['git', 'version'], cwd=/home/kiran/cddockerfile, universal_newlines=False, shell=None, istream=None)
+Fetched housing data.
+Preprocessing...
+Preprocessing finished.
+Saving datasets.
+Preprocessed train datasets stored at data/processed/housing_train.csv.
+Preprocessed test datasets stored at data/processed/housing_test.csv
+Started training.
+LinearRegression model saved in data/models/LinearRegression.pkl.
+DecisionTreeRegressor model saved in data/models/DecisionTreeRegressor.pkl.
+RandomForestRegressor model saved in data/models/RandomForestRegressor.pkl.
+Done training.
+Model: DecisionTreeRegressor
+R2 score: 0.66416266945697
+Model: LinearRegression
+R2 score: 0.6585419093191216
+Model: RandomForestRegressor
+R2 score: 0.8387073877527899
